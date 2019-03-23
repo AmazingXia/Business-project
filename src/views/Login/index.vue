@@ -57,35 +57,35 @@ export default {
       ),
       loginForm).data;
       if (meta.status === 200) {
-          this.$message({
-              message: '登录成功',
-              type: 'success'
-          })
+        this.$message({
+          message: "登录成功",
+          type: "success"
+        });
       } else {
-          this.$message.error(`登录失败: ${meta.msg}`)
+        this.$message.error(`登录失败: ${meta.msg}`);
       }
     }
   }
 }
 </script>
 <style scoped>
-  .login-wrap {
-    height: 100%;
-    background-color: #2f4050;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.login-wrap {
+  height: 100%;
+  background-color: #2f4050;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .login-container {
-    /*width: 300px;
+.login-container {
+  /*width: 300px;
     height: 100px;*/
-    background-color: #fff;
-    border-radius: 10px;
-    padding: 50px;
-  }
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 50px;
+}
 
-  .login-btn {
-    width: 100%;
-  }
+.login-btn {
+  width: 100%;
+}
 </style>

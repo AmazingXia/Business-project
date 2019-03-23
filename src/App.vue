@@ -3,9 +3,9 @@
   <!--
     /login 登录组件
     /      首页组件
-   -->
-  <router-view></router-view>
-</div>
+    -->
+    <router-view></router-view>
+  </div>
 </template>
 <script>
 
@@ -13,10 +13,7 @@ export default {
   data () {
     return {}
   },
-  components: {
-
-  }
-
+  components: { }
 }
 </script>
 <style scoped>
