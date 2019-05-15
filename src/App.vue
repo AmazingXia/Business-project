@@ -1,17 +1,15 @@
 <template>
-<div class="app-wrap">
-  <!--
-    /login 登录组件
-    /      首页组件
-    -->
+  <div class="app-wrap">
     <router-view></router-view>
   </div>
 </template>
-<script>
 
+<script>
 export default {
   data () {
-    return {}
+    return {
+
+    }
   },
   components: { }
 }

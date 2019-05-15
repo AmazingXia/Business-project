@@ -1,3 +1,74 @@
-html,body {
-    height: 100%;
+html,
+body {
+  height: 100%;
 }
+
+
+
+.el-container {
+  height: 100%;
+}
+
+.el-aside {
+  background-color: #21262a;
+}
+
+.el-main {
+  background-color: #f1f1f1;
+}
+
+.el-row {
+  display: flex;
+  align-items: center;
+}
+
+.el-menu {
+  height: 100%;
+}
+
+.fas {
+  margin-right: 10px;
+}
+
+/* .el-aside {
+  height: 100%;
+} */
+
+
+
+/* .el-card__body {
+  height: 100%;
+} */
+
+
+
+.item {
+  margin-bottom: 18px;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+
+/* .el-main {
+  height: 100%;
+} */
+
+.cell {
+  width: 500px;
+}
+
+/* .el-table {
+  min-height: 100%;
+}
+
+.el-table {
+  height: 100%;
+} */
